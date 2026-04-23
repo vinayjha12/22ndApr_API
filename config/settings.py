@@ -5,5 +5,5 @@ load_dotenv()
 
 BASE_URL = os.getenv("BASE_URL", "https://equss.vvdntech.com/api/v1")
 API_KEY = os.getenv("API_KEY", "1")
-AUTH_TOKEN = os.getenv("AUTH_TOKEN", "")
+AUTH_TOKEN = os.getenv("AUTH_TOKEN", "eyJraWQiOiJhMDUyYmIzZi02YmY0LTRhMzQtYjMwYi01OWQ5OGU0Yzg0MjAiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6InB1YmxpYy1jbGllbnQiLCJuYmYiOjE3NzY5MzkzMjYsInNjb3BlIjpbIm9wZW5pZCJdLCJpc3MiOiJodHRwczovL2F1dGgudnZkbnRlY2guY29tIiwiZXhwIjoxNzc3MDI1NzI2LCJpYXQiOjE3NzY5MzkzMjYsImp0aSI6ImY1YjE4MGNlLThiYmMtNDU2Ny1hZTg0LTI3ZTljYjNhYzA2MSIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXX0.h-TDDEy5FG1-c9EyuGrhPj-vO9RhdHD6WuR_iTRmhTHk322DEkmjyNQ1SAhtaiXxibmxmC-quR07iEoSpukUlSluy87pYG0JHRKq-EIn1mx66KRbsKSu-4DVGxxN-t0fcsNVQxH-Q_ao5m5Zy-RZHbsEDHpVG0OOd2KGeNNPYLbpaVeeOcjUd7fzq8cASypXLee1lYg7vEDjIaqI3wz-tosO2d1TRAiITyc_MGgD-A514b2cRdCPYaojLczqh-tMg32fUbbhINDcdDREwMX40Zn7n-9_-QlQXVBZq50kyLONSSZEtvNuqjS-lQTt6-3BnF52c30eNq2C6ezTcJWX8w")
 TIMEOUT = int(os.getenv("TIMEOUT", "30"))
